@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+body{
+    height: 100vh;
+}
+
+header{
+    height: 15%;
+    background-color: blue;
+}
+
+.container{
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.hero{
+    background-color: red;
+    width: 40%;
+    height: 30%;
+}
+
+.sidebar{
+    background-color: purple;
+    width: 40%;
+    height: 70%;
+}
+
+.main{
+    background-color: pink;
+    height: 70%;
+    width: 60%;
+}
+.extracontent{
+    background-color: lightblue;
+    height: 30%;
+    width: 60%;
+}
+
+.secondcontainer{
+    height: 15%;
+    display: flex;
+}
+
+.imgrelate{
+    background-color: green;
+    width: 70%;
+}
+
+.postrelate{
+    background-color: yellowgreen;
+    width: 30%;
+}
+
+footer{
+    background-color: orange;
+    height: 15%;
+}
